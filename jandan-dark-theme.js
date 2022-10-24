@@ -10,13 +10,12 @@
 
 (function() {
     'use strict';
-let css=`
-body{
-    background:#111;
-    color:#fff
-}
-
-`
+    let css=`
+        body{
+            background:#111;
+            color:#fff
+        }
+    `
  
     GM_addStyle(css)
     // Your code here...
