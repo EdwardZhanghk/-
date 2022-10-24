@@ -77,6 +77,9 @@
             border: 1px solid #222;
             color:#fff
         }
+        a, a:link, a:visited{
+            color:#B4B4B4;
+        }
     `
  
     GM_addStyle(css)
