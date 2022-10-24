@@ -68,6 +68,7 @@
         }
         #commentform textarea{
             background-color: #222;
+            color:#fff;
         }
         #commentform input{
             background-color: #9F9F9F;
