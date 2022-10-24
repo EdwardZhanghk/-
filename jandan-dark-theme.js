@@ -11,10 +11,34 @@
 (function() {
     'use strict';
     let css=`
-        body{
+        body,html{
             background:#111;
-            color:#fff
+            color:#6E6E6E
         }
+        #content .title {
+            background-color: #111;
+        }
+        #content .post blockquote {
+            background-color: #111;
+            color:#6E6E6E
+        }
+        #sidebar form input{
+            background-color: #9F9F9F;
+        }
+        #sidebar form{
+            border-bottom:#e5e5e5;
+            background-color: #111;
+        }
+        .hot-tabs .hot-tab {
+            background-color: #222;
+        }
+        #sidebar h3 {
+            background-color: #222;
+        }
+        #sidebar ul {
+            background-color: #222;
+        }
+
     `
  
     GM_addStyle(css)
