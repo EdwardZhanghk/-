@@ -13,14 +13,14 @@
     let css=`
         body,html{
             background:#111;
-            color:#6E6E6E;
+            color:#B4B4B4;
         }
         #content .title {
             background-color: #111;
         }
         #content .post blockquote {
             background-color: #111;
-            color:#6E6E6E
+            color:#B4B4B4;
         }
         #sidebar form input{
             background-color: #9F9F9F;
@@ -43,7 +43,7 @@
         }
         .tucao-content{
             background-color: #222;
-            color:#6E6E6E;
+            color:#B4B4B4;
         }
         .tucao-hot-title {
             background-color: #222;
@@ -57,7 +57,26 @@
         .tucao-hot{
            background-color: #222;
 
+        }
+        .acv_author{
+            background-color: #222;
+            color:#9f9f9f
         } 
+        .wp-pagenavi a {
+            background-color: #222;
+            color:#9f9f9f
+        }
+        #commentform textarea{
+            background-color: #222;
+        }
+        #commentform input{
+            background-color: #9F9F9F;
+        }
+        #commentform #submit{
+            background-color: #222;
+            border: 1px solid #222;
+            color:#fff
+        }
     `
  
     GM_addStyle(css)
