@@ -13,7 +13,7 @@
     let css=`
         body,html{
             background:#111;
-            color:#6E6E6E
+            color:#6E6E6E;
         }
         #content .title {
             background-color: #111;
@@ -38,7 +38,26 @@
         #sidebar ul {
             background-color: #222;
         }
+        .tucao-author, .tucao-{
+            background-color: #222;
+        }
+        .tucao-content{
+            background-color: #222;
+            color:#6E6E6E;
+        }
+        .tucao-hot-title {
+            background-color: #222;
+        }
+        .tucao-row{
+           background-color: #222;
+        }
+        .jandan-tucao{
+            background-color: #222;
+        }
+        .tucao-hot{
+           background-color: #222;
 
+        } 
     `
  
     GM_addStyle(css)
