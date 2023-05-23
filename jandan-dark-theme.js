@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         煎蛋暗黑模式
 // @namespace    https://github.com/EdwardZhanghk/jandan-dark-theme
-// @version      0.1.0
+// @version      0.2.0
 // @description  一个对调了煎蛋网文字和背景颜色的脚本，让煎蛋网拥有暗黑模式，妈妈再也不用担心我半夜摸鱼看煎蛋亮瞎眼了
 // @author       EdwardZhanghk
 // @match        http://jandan.net/*
@@ -66,7 +66,7 @@
             background-color: #222;
             color:#9f9f9f
         }
-        #commentform textarea{
+        #commentform textarea,#content textarea,button{
             background-color: #222;
             color:#fff;
         }
@@ -81,6 +81,10 @@
         a, a:link, a:visited{
             color:#B4B4B4;
         }
+        .topic-content,.topic-author,.topic-function,.reply,.acv_comment{
+            background-color: #222;
+        }
+        
     `
  
     GM_addStyle(css)
