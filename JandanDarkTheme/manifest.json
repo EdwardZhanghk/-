@@ -1,0 +1,19 @@
+{
+    "name": "煎蛋暗黑模式",
+    "version": "0.2.0",
+    "description": "一个对调了煎蛋网文字和背景颜色的脚本，让煎蛋网拥有暗黑模式，妈妈再也不用担心我半夜摸鱼看煎蛋亮瞎眼了",
+    "manifest_version": 2,
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "http://jandan.net/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
